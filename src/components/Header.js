@@ -1,13 +1,14 @@
 import React from 'react';
+import Logo from './Logo/Logo';
 
 
 const Header = (props) => {
     return ( 
         <>
-            <nav className="flex justify-center p-4 bg-white">
-                <h1 className="text-xl text-teal-400 font-semibold" >
-                    Eco Budget
-                    </h1>
+            <nav className="flex justify-center p-4 bg-teal-400">
+                <div className="" >
+                    <Logo />
+                    </div>
             </nav>
         </>
      );

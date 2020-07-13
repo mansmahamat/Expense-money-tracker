@@ -6,14 +6,29 @@ import IncomeExpenses from './components/IncomeExpenses';
 import AddTransaction from './components/AddTransaction';
 import TransactionHistory from './components/TransactionHistory';
 
-function App() {
+
+
+import { GlobalProvider } from './context/GlobalState';
+
+
+
+
+function App(props) {
+
+ 
+
   return (
     <>
+   
+    <GlobalProvider>
       <Header />
-      <Balance />
+      <Balance /> 
       <IncomeExpenses />
       <TransactionHistory />
       <AddTransaction />
+    </GlobalProvider>
+
+       
     </>
   );
 }
