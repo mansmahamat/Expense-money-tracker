@@ -33,6 +33,7 @@ const TransactionList = (props) => {
       
    }
 
+   
 
     return ( 
         <>
@@ -67,8 +68,9 @@ const TransactionList = (props) => {
          </div>
 
          <DatePicker 
-            required  
-            closeOnScroll={true} 
+            required 
+            withPortal 
+            
             className=" mx-3  text-center mb-8 appearance-none block w-full bg-white font-medium border border-teal-400 rounded-lg py-3 px-3 leading-tight focus:outline-none" 
             dateFormat="dd/MM/yyyy" 
             selected={date} 
