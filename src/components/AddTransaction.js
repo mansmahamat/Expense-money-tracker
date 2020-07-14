@@ -25,6 +25,11 @@ const TransactionList = (props) => {
       }
 
       addTransaction(newTransaction);
+
+      setAmount('');
+      setdate('');
+      setCategory('');
+      setText('');
       
    }
 
