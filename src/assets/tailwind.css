@@ -3,3 +3,33 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+.input {
+   @apply block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2
+block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2;
+}
+
+.divInput {
+    @apply w-full px-3 mb-6;
+}
+
+.divIncomeExpense {
+    @apply relative  text-white px-6 pb-6 mt-6;
+}
+
+.h2IncomeExpense {
+    @apply block  text-2xl font-extrabold mb-2;
+}
+
+.divHalf_InEx {
+    @apply  m-3  text-center  w-1/2  h-40  rounded-lg shadow-lg;
+}
+
+.divValue {
+    @apply flex justify-between;
+}
+
+.spanValueInEx {
+    @apply block text-base bg-white rounded-full   font-bold px-3 py-2 leading-none  items-center ;
+}

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
-import Transaction from './Transaction';
+import Transaction from './Transaction.jsx';
 
 
 
@@ -22,7 +22,7 @@ const TransactionHistory = (props) => {
 
         
 
-<div   className="container flex mx-auto w-full h-auto  items-center justify-center">
+<div   className="container flex mx-auto w-full h-auto items-center justify-center">
 
  
 

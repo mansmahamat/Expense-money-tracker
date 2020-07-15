@@ -6,9 +6,9 @@ const Header = (props) => {
     return ( 
         <>
             <nav className="flex justify-center p-4 bg-teal-400">
-                <div className="" >
+           
                     <Logo />
-                    </div>
+              
             </nav>
         </>
      );
