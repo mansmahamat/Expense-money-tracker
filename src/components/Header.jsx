@@ -5,7 +5,7 @@ import Logo from './Logo/Logo';
 const Header = (props) => {
     return ( 
         <>
-            <nav className="flex justify-center p-4 bg-teal-400">
+            <nav className="flex justify-center p-4 bg-transparent">
            
                     <Logo />
               

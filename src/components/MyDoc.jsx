@@ -83,15 +83,15 @@ const MyDoc = (props) => (
         src="https://i.ibb.co/y6dw1xG/mony-1.png"
       />
 
-        <Text style={styles.title}>Votre Budget</Text>
+        <Text style={styles.title}>Your Budget</Text>
 
         <Text style={styles.title2}> Total :  {props.total} € </Text>
-        <Text style={styles.expense}> Dépenses :  {props.expense} € </Text>
-        <Text style={styles.income}> Recettes :  {props.income} € </Text>
+        <Text style={styles.expense}> Expenses :  {props.expense} € </Text>
+        <Text style={styles.income}> Incomes :  {props.income} € </Text>
      
         <View style={styles.section}>  
             <Text style={styles.header} fixed>
-                Historique : 
+                Historic : 
             </Text>
           {props.transaction.map(transac => (
               <Text  key={transac.id} style={styles.list}  > 

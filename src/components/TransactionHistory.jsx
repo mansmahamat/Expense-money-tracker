@@ -28,7 +28,7 @@ const TransactionHistory = (props) => {
 
    <ul  className="flex flex-col bg-teal-400 p-4 rounded-lg ">
    
-        <h3 className="text-center mb-4 text-xl">Historique</h3>
+        <h3 className="text-center mb-4 text-xl">Historic</h3>
         {transactions.map(transaction => (
             <Transaction  key={transaction.id} transaction={transaction} />
         ))}

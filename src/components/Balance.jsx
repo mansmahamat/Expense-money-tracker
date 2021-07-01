@@ -38,7 +38,7 @@ const Balance = () => {
         <>              
             <div  className=" mt-10 flex flex-col bg-white px-8 py-6 max-w-sm mx-auto rounded-lg shadow-lg">
                 <div className="flex justify-center items-center">
-                    <span className="px-2 font-bold text-2xl py-1 bg-teal-400  text-green-100 rounded">Solde</span>
+                    <span className="px-2 font-bold text-2xl py-1 bg-teal-400  text-green-100 rounded">Balance</span>
                 </div>
 
                 <div className="mt-4 text-center">
@@ -57,7 +57,7 @@ const Balance = () => {
 
                
                  <PDFDownloadLink className=" flex items-center bg-teal-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" key={transactions.id} document={<MyDoc transaction={text} total={total} expense={expense} income={income} dateCreation={dateCreation} />} fileName="budget.pdf">
-      {({ blob, url, loading, error }) => (loading ? 'Chargement' : 'Téléchargez votre budget en pdf')}
+      {({ blob, url, loading, error }) => (loading ? 'Loading' : 'Download your budget in pdf')}
     </PDFDownloadLink>
   
               
